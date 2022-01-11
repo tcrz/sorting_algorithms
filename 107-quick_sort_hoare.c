@@ -74,5 +74,4 @@ void qs(int arr[], size_t n, int low, int high)
 void quick_sort_hoare(int array[], size_t size)
 {
 	qs(array, size, 0, size - 1);
-	print_array(array, size);
 }
