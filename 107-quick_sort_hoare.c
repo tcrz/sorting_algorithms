@@ -39,9 +39,11 @@ int partition_hoare(int a[], size_t n, int lo, int hi)
 
 		while (a[j] > pivot)
 			j--;
-		if (i >= j)
+		if (i < j)
+			swap(a, n, &a[i], &a[j]);
+		else
 			return (i);
-		swap(a, n, &a[i], &a[j]);
+		
 		i++;
 		j--;
 	}
