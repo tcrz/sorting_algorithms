@@ -27,5 +27,6 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void quick_sort_hoare(int a[], size_t n);
+void merge_sort(int *array, size_t size);
 
 #endif
