@@ -29,8 +29,8 @@ void swap(int a[], size_t n, int *x, int *y)
 int partition_hoare(int a[], size_t n, int lo, int hi)
 {
 	int pivot = a[hi];
-	int i = lo;
-	int j = hi;
+	int i = lo -1;
+	int j = hi + 1;
 
 	while (1)
 	{
