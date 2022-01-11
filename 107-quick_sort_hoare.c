@@ -43,7 +43,7 @@ int partition_hoare(int a[], size_t n, int lo, int hi)
 			swap(a, n, &a[i], &a[j]);
 		else
 			return (i);
-		
+
 		i++;
 		j--;
 	}
