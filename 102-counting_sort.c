@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
-* counsting_sort - counting sort algo
+* counting_sort - counting sort algo
 * @array: int array
 * @size: size of array
 */
