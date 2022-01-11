@@ -1,5 +1,6 @@
 #include "sort.h"
 
+
 /**
 * swap - swaps two values
 * @a: int array
@@ -31,7 +32,7 @@ int partition_hoare(int a[], size_t n, int lo, int hi)
 	int i = lo;
 	int j = hi;
 
-	while (i < j)
+	while (1)
 	{
 		while (a[i] < pivot)
 			i++;
@@ -44,7 +45,6 @@ int partition_hoare(int a[], size_t n, int lo, int hi)
 		i++;
 		j--;
 	}
-	return (i);
 }
 
 
