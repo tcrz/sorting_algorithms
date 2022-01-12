@@ -13,8 +13,7 @@ void swap(int a[], size_t n, int *x, int *y)
 	int temp = *x;
 	*x = *y;
 	*y = temp;
-	if (*x != *y)
-		print_array(a, n);
+	print_array(a, n);
 }
 
 /**
